@@ -67,7 +67,7 @@ class Done extends React.Component {
         </h3>
         <h5 style={otherButton}>
           <Link href="/level">
-            <a>Another Level</a>
+            <a>Another Level?</a>
           </Link>
         </h5>
         {this.children}
