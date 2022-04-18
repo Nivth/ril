@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Link from "next/link";
 
 const style = {
   buttonRetry: {
@@ -65,7 +66,9 @@ class Done extends React.Component {
           RETRY
         </h3>
         <h5 style={otherButton}>
-          <a href="/level">Another Level</a>
+          <Link href="/level">
+            <a>Another Level</a>
+          </Link>
         </h5>
         {this.children}
       </div>
