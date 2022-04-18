@@ -176,13 +176,13 @@ const Container = styled.div`
             font-size: 18px;
             line-height: 26px;
           }
-          p {
-            font-size: 16px;
-            line-height: 26px;
-            margin-right: 0;
-            margin-bottom: 0;
-            margin-left: auto;
-          }
+        }
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          margin-right: 0;
+          margin-bottom: 0;
+          margin-left: auto;
         }
       }
     }
