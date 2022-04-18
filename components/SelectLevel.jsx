@@ -87,7 +87,7 @@ export default function SelectLevel({ level, desc, href }) {
       <div className="box">
         <Link href={href}>
           <a>
-            <Button children={"Play"} />
+            <Button>Play</Button>
           </a>
         </Link>
       </div>
