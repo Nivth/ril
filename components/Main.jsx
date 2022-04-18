@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 import abstract from "../public/abstract.png";
 import arrow from "../public/Arrow.svg";
@@ -52,11 +53,13 @@ export default function Main() {
           ini berbeda dengan bilangan kompleks yang termasuk di dalamnya adalah
           bilangan imajiner.
         </p>
-        <a href="/level">
-          <button>
-            Mainkan gamenya <img src={arrow} />
-          </button>
-        </a>
+        <Link href="/level">
+          <a>
+            <button>
+              Mainkan gamenya <img src={arrow} />
+            </button>
+          </a>
+        </Link>
       </article>
     </StyledMain>
   );
