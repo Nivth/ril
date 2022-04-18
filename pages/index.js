@@ -170,16 +170,19 @@ const Container = styled.div`
       margin-top: 200px;
       .creator {
         flex-direction: column;
-        h3 {
-          font-size: 18px;
-          line-height: 26px;
-        }
-        p {
-          font-size: 16px;
-          line-height: 26px;
-          margin-right: 0;
-          margin-bottom: 0;
-          margin-left: auto;
+        .people {
+          width: 100%;
+          h3 {
+            font-size: 18px;
+            line-height: 26px;
+          }
+          p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: auto;
+          }
         }
       }
     }
