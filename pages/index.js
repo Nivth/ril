@@ -166,7 +166,7 @@ const Container = styled.div`
     a:hover {
       text-decoration: underline;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 1270px) {
       margin-top: 200px;
       .creator {
         flex-direction: column;
