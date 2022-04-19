@@ -45,7 +45,7 @@ const Container = styled.div`
       font-size: 25px;
       line-height: 38px;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 1200px) {
       display: flex;
       flex-direction: column;
       .header-img {
@@ -98,7 +98,7 @@ const Container = styled.div`
     img {
       background-color: inherit;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 1200px) {
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -166,7 +166,7 @@ const Container = styled.div`
     a:hover {
       text-decoration: underline;
     }
-    @media (max-width: 1270px) {
+    @media (max-width: 1200px) {
       margin-top: 200px;
       .creator {
         flex-direction: column;
